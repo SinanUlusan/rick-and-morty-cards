@@ -1,0 +1,8 @@
+.bigTitle {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-size: var(--c-title-font-size);
+  font-weight: bold;
+  color: var(--c-primary);
+}
