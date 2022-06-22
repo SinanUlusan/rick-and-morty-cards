@@ -8,7 +8,7 @@ function Cards({ characters }) {
   return (
     <div className={styles.cards}>
       {characters.results.map((character) => (
-        <article className={styles.article}>
+        <article key={character.id} className={styles.article}>
           <div className={styles.imgBox}>
             <img src={character.image} />
           </div>
